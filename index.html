@@ -72,7 +72,7 @@ section{padding:80px 0}.center{max-width:840px;margin:0 auto;text-align:center}.
 <script>
 document.querySelectorAll('.logo-card img').forEach(img=>{img.addEventListener('error',()=>img.closest('.logo-card').classList.add('logo-missing'));});
 const heroVideo=document.getElementById('heroVideo');
-if(heroVideo){heroVideo.playbackRate=0.65;}
+if(heroVideo){heroVideo.playbackRate=0.5;}
 const pages=[...document.querySelectorAll('.page')];
 const navButtons=[...document.querySelectorAll('[data-page]')];
 const mobile=document.getElementById('mobileNav');
